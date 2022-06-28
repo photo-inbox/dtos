@@ -1,0 +1,23 @@
+{
+  "name": "@photo-inbox/dtos",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access public",
+    "prepublishOnly" : "npm run build"
+  },
+  "author": "vorant94@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/photo-inbox/dtos.git"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
